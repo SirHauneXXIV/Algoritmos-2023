@@ -1,6 +1,0 @@
-Guess my secret number
-mine is greater 
-mine is greater 
-mine is smaller 
-mine is greater 
-You guessed right

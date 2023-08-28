@@ -11,15 +11,15 @@ public class Main {
     Scanner sc = new Scanner(System.in);
     boolean isSecret = true;
     int mySecretNumber = 8;
-    System.out.println("Guess my secret number");
     while (isSecret) {
+      System.out.print("#?");
       int usrGuess = sc.nextInt();
       if (usrGuess < mySecretNumber)
-        System.out.println("mine is greater ");
+        System.out.println(">mayor");
       else if (usrGuess > mySecretNumber)
-        System.out.println("mine is smaller ");
+        System.out.println(">menor");
       else {
-        System.out.println("You guessed right");
+        System.out.println(">igual");
         isSecret = false;
       }
     }
